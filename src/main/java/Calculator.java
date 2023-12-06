@@ -6,7 +6,7 @@ public class Calculator {
         int s = itemsList.names.size();
         for (int i = 0; i < s; i = i + 1) {
             sum += itemsList.names.get(i).price;
-            System.out.println(sum);
+            //System.out.println(sum);
         }
         return sum / peopleAmount;
     }
